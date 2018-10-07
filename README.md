@@ -6,7 +6,7 @@
 
 ![alt text](https://github.com/jndewey/dashboard/blob/master/dashboard/Screenshot_2018-10-06%20%20lawyer_notebook-0(6).png)
 
-![alt text](https://github.com/jndewey/dashboard/blob/master/dashboard/Screenshot_2018-10-06%20%20lawyer_notebook-0(6).png)
+![alt text](https://github.com/jndewey/dashboard/blob/master/dashboard/Screenshot_2018-10-06%20%20lawyer_notebook-0(7).png)
 ***
 
 ## Try it live
