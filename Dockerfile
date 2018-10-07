@@ -29,6 +29,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 # install Jupyter via pip
 RUN pip3 install notebook
+RUN pip3 install numpy
+RUN pip3 install matplotlib
+RUN pip3 install pandas
 
 # install ipywidgets
 RUN pip3 install ipywidgets  && \
