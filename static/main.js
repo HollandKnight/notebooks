@@ -28,12 +28,12 @@ define([
     //==========================================================================
     var kernel_busy_handler = function (e) {
         $('#appmode-busy').css('visibility', 'visible');
-    }
+    };
 
     //==========================================================================
     var kernel_idle_handler = function (e) {
         $('#appmode-busy').css('visibility', 'hidden');
-    }
+    };
 
     //==========================================================================
     function goto_app_mode() {
@@ -42,7 +42,7 @@ define([
 
         // build new URL
         var base_url = Jupyter.notebook.base_url;
-        var prefix = base_url+"notebooks/"
+        var prefix = base_url+"notebooks/";
         var path = window.location.pathname.substring(prefix.length);
         var search = window.location.search;
         var scroll = "appmode_scroll=" + $('#site').scrollTop();
@@ -62,7 +62,7 @@ define([
     function goto_normal_mode() {
         // build new URL
         var base_url = Jupyter.notebook.base_url;
-        var prefix = base_url+"apps/"
+        var prefix = base_url+"apps/";
         var path = window.location.pathname.substring(prefix.length);
         var new_url = base_url + "notebooks/" + path + window.location.search;
 
