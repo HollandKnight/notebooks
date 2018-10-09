@@ -4,7 +4,7 @@ import os.path
 import re
 
 import nltk as nltk
-import textract
+#import textract
 from bs4 import BeautifulSoup as BeautifulSoup
 from openpyxl import Workbook as Workbook
 
@@ -113,7 +113,8 @@ def load_raw(path, tags=False):
 
 
 def text_from_binary(file_path):
-    text = textract.process(file_path, method='tesseract', language='eng')
+    #text = textract.process(file_path, method='tesseract', language='eng')
+    text = 'Not set up for binary'
     return text.decode('unicode_escape').encode('utf-8', 'ignore').strip()
 
 

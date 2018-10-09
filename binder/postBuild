@@ -15,7 +15,9 @@ pip install google-cloud-core
 pip install googleapis-common-protos
 pip install google-cloud-automl
 pip install nltk
-pip install textract
+pip install nltk
+pip install bs4
+pip install openpyxl
 
 
 pip install .

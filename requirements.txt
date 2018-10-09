@@ -12,5 +12,4 @@ googleapis-common-protos
 google-cloud-automl
 libprotobuf
 protobuf
-nltk
-textract
+openpyxl

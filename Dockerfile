@@ -16,6 +16,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-setuptools     \
     python3-wheel          \
     python3-pip            \
+    python-wheel          \
+    python-pip            \
     less                  \
     nano                  \
     sudo                  \
@@ -32,13 +34,12 @@ RUN pip3 install notebook
 RUN pip3 install numpy
 RUN pip3 install matplotlib
 RUN pip3 install pandas
-RUN pip install pandas
-RUN pip install fuzzywuzzy
-RUN pip install --upgrade google-cloud-storage
-RUN pip3 install --upgrade google-cloud-storage
-RUN conda install --upgrade google-cloud-storage
-RUN pip install google-cloud-core
-RUN pip install google-api-core
+RUN pip3 install pandas
+RUN pip3 install fuzzywuzzy
+RUN pip3 install nltk
+RUN pip3 install bs4
+RUN pip3 install openpyxl
+RUN pip3 install google-cloud-automl
 
 # install ipywidgets
 RUN pip3 install ipywidgets  && \
@@ -51,19 +52,21 @@ RUN pip3 install .                                           && \
     jupyter nbextension     enable --py --sys-prefix appmode && \
     jupyter serverextension enable --py --sys-prefix appmode
 
-RUN pip install pandas
-RUN pip install fuzzywuzzy
-RUN pip install --upgrade google-cloud-storage
-RUN pip install google-cloud-core
-RUN pip install google-api-core
-RUN pip install google-cloud-core
-RUN pip install google-api-core
-RUN pip install google-auth
-RUN pip install google-cloud-bigquery
-RUN pip install googleapis-common-protos
-RUN pip install google-cloud-automl
-RUN pip install nltk
-RUN pip install textract
+RUN pip3 install pandas
+RUN pip3 install fuzzywuzzy
+#RUN pip install --upgrade google-cloud-storage
+#RUN pip install google-cloud-core
+#RUN pip install google-api-core
+#RUN pip install google-cloud-core
+RUN pip3 install google-auth
+#RUN pip install google-cloud-bigquery
+#RUN pip install googleapis-common-protos
+RUN pip3 install google-cloud-automl
+RUN pip3 install nltk
+RUN pip3 install bs4
+RUN pip3 install openpyxl
+
+
 
 
 
