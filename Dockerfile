@@ -57,9 +57,17 @@ RUN pip install pandas
 RUN pip install fuzzywuzzy
 RUN pip install --upgrade google-cloud-storage
 RUN pip3 install --upgrade google-cloud-storage
-RUN conda install --upgrade google-cloud-storage
 RUN pip install google-cloud-core
 RUN pip install google-api-core
+RUN pip3 install google-cloud-core
+RUN pip3 install google-api-core
+RUN pip3 install google-auth
+RUN pip3 install google-cloud-bigquery
+RUN pip install google-cloud-core
+RUN pip install google-api-core
+RUN pip install google-auth
+RUN pip install google-cloud-bigquery
+googleapis-common-protos
 
 
 

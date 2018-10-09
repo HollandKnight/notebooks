@@ -3,3 +3,11 @@ pandas
 numpy==1.13.1
 matplotlib==2.0.2
 fuzzywuzzy
+google-api-core
+google-auth
+google-cloud-bigquery
+google-cloud-storage
+google-cloud-core
+googleapis-common-protos
+libprotobuf
+protobuf

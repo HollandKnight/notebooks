@@ -1,6 +1,6 @@
 #!/bin/bash
 
-pip3 install numpy
+pip install numpy
 pip install pandas
 pip install fuzzywuzzy
 pip3 install matplotlib
@@ -8,6 +8,12 @@ pip3 install --upgrade google-cloud-storage
 pip install --upgrade google-cloud-storage
 pip install google-cloud-core
 pip install google-api-core
+pip install google-api-core
+pip install google-auth
+pip install google-cloud-bigquery
+pip install google-cloud-storage
+pip install google-cloud-core
+pip install googleapis-common-protos
 
 pip install .
 jupyter nbextension     enable --py --sys-prefix appmode
