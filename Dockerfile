@@ -51,7 +51,7 @@ RUN pip3 install matplotlib
 RUN pip3 install pandas
 RUN pip install pandas
 RUN pip install fuzzywuzzy
-RUN pip3 install --upgrade google-cloud-storage
+RUN pip install --upgrade google-cloud-storage
 
 # Possible Customizations
 # RUN mkdir -p ~/.jupyter/custom/                                          && \
