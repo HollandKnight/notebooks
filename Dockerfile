@@ -33,7 +33,7 @@ RUN pip3 install numpy
 RUN pip3 install matplotlib
 RUN pip3 install pandas
 RUN pip install pandas
-RUN pip3 install fuzzywuzzy
+RUN pip install fuzzywuzzy
 RUN pip3 install --upgrade google-cloud-storage
 
 # install ipywidgets
@@ -50,7 +50,7 @@ RUN pip3 install numpy
 RUN pip3 install matplotlib
 RUN pip3 install pandas
 RUN pip install pandas
-RUN pip3 install fuzzywuzzy
+RUN pip install fuzzywuzzy
 RUN pip3 install --upgrade google-cloud-storage
 
 # Possible Customizations

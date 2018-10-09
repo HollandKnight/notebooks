@@ -2,7 +2,7 @@
 
 pip3 install numpy
 pip install pandas
-pip3 install fuzzywuzzy
+pip install fuzzywuzzy
 pip3 install matplotlib
 pip3 install --upgrade google-cloud-storage
 pip install .
