@@ -13,3 +13,4 @@ google-cloud-automl
 libprotobuf
 protobuf
 nltk
+textract
