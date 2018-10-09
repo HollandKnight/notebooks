@@ -34,7 +34,9 @@ RUN pip3 install matplotlib
 RUN pip3 install pandas
 RUN pip install pandas
 RUN pip install fuzzywuzzy
+RUN pip install --upgrade google-cloud-storage
 RUN pip3 install --upgrade google-cloud-storage
+RUN conda install --upgrade google-cloud-storage
 
 # install ipywidgets
 RUN pip3 install ipywidgets  && \
@@ -52,6 +54,10 @@ RUN pip3 install pandas
 RUN pip install pandas
 RUN pip install fuzzywuzzy
 RUN pip install --upgrade google-cloud-storage
+RUN pip3 install --upgrade google-cloud-storage
+RUN conda install --upgrade google-cloud-storage
+
+
 
 # Possible Customizations
 # RUN mkdir -p ~/.jupyter/custom/                                          && \
