@@ -49,7 +49,7 @@ RUN pip3 install numpy
 RUN pip3 install matplotlib
 RUN pip3 install pandas
 RUN pip3 install fuzzywuzzy
-RUN pip3 install google.cloud
+RUN pip3 install google-cloud
 
 # Possible Customizations
 # RUN mkdir -p ~/.jupyter/custom/                                          && \
