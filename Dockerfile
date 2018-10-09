@@ -67,7 +67,7 @@ RUN pip install google-cloud-core
 RUN pip install google-api-core
 RUN pip install google-auth
 RUN pip install google-cloud-bigquery
-googleapis-common-protos
+RUN pip install googleapis-common-protos
 
 
 
