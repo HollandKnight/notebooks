@@ -62,6 +62,7 @@ RUN pip install google-auth
 RUN pip install google-cloud-bigquery
 RUN pip install googleapis-common-protos
 RUN pip install google-cloud-automl
+RUN pip install nltk
 
 
 
