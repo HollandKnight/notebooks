@@ -6,6 +6,8 @@ pip install fuzzywuzzy
 pip3 install matplotlib
 pip3 install --upgrade google-cloud-storage
 pip install --upgrade google-cloud-storage
+pip install google-cloud-core
+pip install google-api-core
 
 pip install .
 jupyter nbextension     enable --py --sys-prefix appmode

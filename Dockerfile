@@ -37,6 +37,8 @@ RUN pip install fuzzywuzzy
 RUN pip install --upgrade google-cloud-storage
 RUN pip3 install --upgrade google-cloud-storage
 RUN conda install --upgrade google-cloud-storage
+RUN pip install google-cloud-core
+RUN pip install google-api-core
 
 # install ipywidgets
 RUN pip3 install ipywidgets  && \
@@ -56,6 +58,8 @@ RUN pip install fuzzywuzzy
 RUN pip install --upgrade google-cloud-storage
 RUN pip3 install --upgrade google-cloud-storage
 RUN conda install --upgrade google-cloud-storage
+RUN pip install google-cloud-core
+RUN pip install google-api-core
 
 
 
