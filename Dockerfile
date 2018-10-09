@@ -40,6 +40,7 @@ RUN pip3 install nltk
 RUN pip3 install bs4
 RUN pip3 install openpyxl
 RUN pip3 install google-cloud-automl
+RUN nltk.download('punkt')
 
 # install ipywidgets
 RUN pip3 install ipywidgets  && \
