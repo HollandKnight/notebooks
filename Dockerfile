@@ -32,6 +32,7 @@ RUN pip3 install notebook
 RUN pip3 install numpy
 RUN pip3 install matplotlib
 RUN pip3 install pandas
+RUN pip install pandas
 RUN pip3 install fuzzywuzzy
 RUN pip3 install --upgrade google-cloud-storage
 
@@ -48,6 +49,7 @@ RUN pip3 install .                                           && \
 RUN pip3 install numpy
 RUN pip3 install matplotlib
 RUN pip3 install pandas
+RUN pip install pandas
 RUN pip3 install fuzzywuzzy
 RUN pip3 install --upgrade google-cloud-storage
 
