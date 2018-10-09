@@ -32,6 +32,8 @@ RUN pip3 install notebook
 RUN pip3 install numpy
 RUN pip3 install matplotlib
 RUN pip3 install pandas
+RUN pip3 install fuzzywuzzy
+RUN pip3 install google.cloud
 
 # install ipywidgets
 RUN pip3 install ipywidgets  && \
@@ -43,6 +45,11 @@ WORKDIR /opt/appmode/
 RUN pip3 install .                                           && \
     jupyter nbextension     enable --py --sys-prefix appmode && \
     jupyter serverextension enable --py --sys-prefix appmode
+RUN pip3 install numpy
+RUN pip3 install matplotlib
+RUN pip3 install pandas
+RUN pip3 install fuzzywuzzy
+RUN pip3 install google.cloud
 
 # Possible Customizations
 # RUN mkdir -p ~/.jupyter/custom/                                          && \
