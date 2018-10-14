@@ -4,18 +4,16 @@ pip install numpy
 pip install pandas
 pip install fuzzywuzzy
 pip install matplotlib
-pip install --upgrade google-cloud-storage
-pip install google-cloud-core
-pip install google-api-core
-pip install google-api-core
+#pip install --upgrade google-cloud-storage
+#pip install google-api-core
 pip install google-auth
-pip install google-cloud-bigquery
-pip install google-cloud-storage
-pip install google-cloud-core
-pip install googleapis-common-protos
+#pip install google-cloud-bigquery
+#pip install google-cloud-storage
+#pip install google-cloud-core
+#pip install googleapis-common-protos
 pip install google-cloud-automl
 pip install nltk
-pip install nltk
+pip install sklearn
 pip install bs4
 pip install openpyxl
 
