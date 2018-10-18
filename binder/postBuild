@@ -16,7 +16,7 @@ pip install nltk
 pip install sklearn
 pip install bs4
 pip install openpyxl
-
+pip install xlrd
 
 pip install .
 jupyter nbextension     enable --py --sys-prefix appmode

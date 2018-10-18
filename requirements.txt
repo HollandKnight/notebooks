@@ -8,3 +8,4 @@ libprotobuf
 protobuf
 openpyxl
 sklearn
+xlrd

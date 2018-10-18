@@ -41,6 +41,8 @@ RUN pip3 install sklearn
 RUN pip3 install openpyxl
 RUN pip3 install google-auth
 RUN pip3 install google-cloud-automl
+RUN pip3 install xlrd
+
 
 
 # install ipywidgets
