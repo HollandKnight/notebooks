@@ -9,3 +9,4 @@ protobuf
 openpyxl
 sklearn
 xlrd
+pixiedust
