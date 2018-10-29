@@ -64,7 +64,7 @@ RUN pip3 install .                                           && \
 #     echo "\$('#appmode-loader').append('<h2>Loading...</h2>');" >> ~/.jupyter/custom/custom.js
 
 # Launch Notebook server
-EXPOSE 8888
+EXPOSE 8899
 CMD ["jupyter-notebook", "--ip=0.0.0.0", "--allow-root", "--no-browser", "--NotebookApp.token=''"]
 
 #EOF
