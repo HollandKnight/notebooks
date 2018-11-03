@@ -18,6 +18,7 @@ pip install bs4
 pip install openpyxl
 pip install xlrd
 pip install pixiedust
+pip install diff-patch-match
 
 pip install .
 jupyter nbextension     enable --py --sys-prefix appmode

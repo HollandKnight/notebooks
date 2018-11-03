@@ -10,3 +10,4 @@ openpyxl
 sklearn
 xlrd
 pixiedust
+diff-match-patch
